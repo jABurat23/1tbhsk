@@ -1,0 +1,99 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f4f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== Navigation ===== */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* ===== Sections ===== */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+}
+
+#contact button {
+  background: #00bcd4;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact button:hover {
+  background: #0097a7;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
